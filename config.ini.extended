@@ -1,0 +1,41 @@
+[colors]
+# Bakgrundsfärg: hexkod (#rrggbb) eller "random"
+background = #232332
+
+# Förgrundsfärg: hexkod (#rrggbb), "random" eller "gay" (regnbåge)
+foreground = gay
+
+# Promptfärger för \u (användarnamn) och \h (hostname)
+# Värde: hexkod eller "gay"
+prompt_user = gay
+prompt_host = gay
+
+# Hastighet på gay-animation i millisekunder (lägre = snabbare)
+gay_speed = 70
+
+[font]
+# Typsnittsnamn — kräver Nerd Font/Powerline-variant för \ue0b0-glyfen
+name = Terminus
+
+# Storlek i punkter
+size = 10
+
+[window]
+# Var launchern ska dyka upp: top eller bottom
+position = bottom
+
+# Höjd i pixlar
+height = 18
+
+# Hur många sökresultat som visas
+max_results = 12
+
+# Bakgrundsanimation: blocks | sweep | breathe | glitch | scanline
+animation = scanline
+
+# Terminal att använda för fzf och editor
+# Lämna tomt för auto-detektering (provar foot, alacritty, kitty, wezterm...)
+terminal = alacritty
+
+# Editor som öppnas för kodfiler via fzf
+editor = vim
